@@ -1,2 +1,2 @@
 # Movie-Recommendation-System
-  A hybrid movie recommender combining content-based filtering (genre similarity) and user-based collaborative filtering (cosine similarity on rating patterns).
+Implements two classic recommendation approaches side by side: content-based filtering, which recommends movies with similar genre profiles using cosine similarity on multi-hot genre vectors, and user-based collaborative filtering, which finds users with similar taste and recommends what they rated highly. Includes a user-similarity heatmap and a comparison of both approaches' recommendations for the same target movie/user.
